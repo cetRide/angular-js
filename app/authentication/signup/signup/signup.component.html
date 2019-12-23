@@ -1,0 +1,37 @@
+<!-- <app-defaultnavbar></app-defaultnavbar> -->
+
+<body>
+    <div class="cntr bg">
+        <mdb-card class="ml-auto mr-auto col-md-4 z-depth-5" mdbWavesEffect>
+            <form class="text-center">
+                <a href="/"><img src="../../../../assets/images/b.png" class="mt-4 logo">
+                </a>
+                <p class="h4 my-4 text-primary">Create your Okla Account</p>
+                <div class="md-form md-outline">
+                    <input type="text" id="username" name="username" class="form-control" mdbInput>
+                    <label for="username">Username</label>
+                </div>
+                <div class="md-form md-outline">
+                    <input type="email" id="email" name="email" class="form-control" mdbInput>
+                    <label for="email">Email address</label>
+                </div>
+                <div class="md-form md-outline">
+                    <input type="password" id="password" class="form-control" mdbInput>
+                    <label for="password">Password</label>
+                    <small class="form-text text-muted mb-2">
+                        Use 8 or more characters with a mix of digits, letters & symbols
+                    </small>
+                </div>
+                <button mdbBtn color="primary" block="true" class="my-1 text-capitalize" type="submit">Sign
+                    Up</button>
+                <p>Already have account?<a routerLink="../login">Sign in</a>.</p>
+                <div class="m-2">
+                    <p>By clicking
+                        <em class="text-muted mb-2">Sign up</em> you agree to our
+                        <a href="#">terms of service</a>.</p>
+                </div>
+            </form>
+        </mdb-card>
+        <app-footer></app-footer>
+    </div>
+</body>
